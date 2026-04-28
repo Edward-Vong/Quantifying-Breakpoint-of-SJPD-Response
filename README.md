@@ -5,3 +5,22 @@ This project analyzes SJPD response times to help quantify the breakpoint of the
 ## Data Source
 
 The data is sourced from the [San Jose Police Calls for Service](https://data.sanjoseca.gov/dataset/police-calls-for-service) dataset.
+
+## Getting Started
+
+### 1. Environment Setup
+
+```bash
+uv venv
+source .venv/bin/activate 
+uv pip install -r pyproject.toml  
+```
+
+### 2. Data Synchronization
+Synchronize datasets and refresh the current year:
+
+```bash
+uv run scripts/sync_data.py
+```
+
+ 

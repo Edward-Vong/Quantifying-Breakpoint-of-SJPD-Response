@@ -1,1 +1,5 @@
-/policacalls_adjusted/
+# Data
+data/
+
+# Environment
+.venv/

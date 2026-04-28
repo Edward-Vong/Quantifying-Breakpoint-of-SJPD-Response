@@ -1,0 +1,16 @@
+[project]
+name = "sjpd-analysis"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "scikit-learn",
+    "ipykernel",
+    "jupyter",
+    "requests",
+    "beautifulsoup4",
+    "ruff"
+]
