@@ -8,17 +8,10 @@ The data is sourced from the [San Jose Police Calls for Service](https://data.sa
 
 ## Getting Started
 
-### 1. Environment Setup
-
 ```bash
+# Setup the environment
 uv sync
+
+# Sync the datasets
+uv run 00_sync_data.py
 ```
-
-### 2. Data Synchronization
-Synchronize datasets and refresh the current year:
-
-```bash
-uv run scripts/sync_data.py
-```
-
- 
