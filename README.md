@@ -11,9 +11,7 @@ The data is sourced from the [San Jose Police Calls for Service](https://data.sa
 ### 1. Environment Setup
 
 ```bash
-uv venv
-source .venv/bin/activate 
-uv pip install -r pyproject.toml  
+uv sync
 ```
 
 ### 2. Data Synchronization
