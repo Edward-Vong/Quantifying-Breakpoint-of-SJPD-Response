@@ -45,7 +45,11 @@ def get_portal_resource_links(url):
 def is_annual_police_calls_csv(url, filename):
     if not url or not url.endswith(".csv"):
         return False
-    return bool(re.search(r"policecalls\d{4}", filename.lower()))
+    match = re.search(r"policecalls(\d{4})", filename.lower())
+    if match:
+        year = int(match.group(1))
+        return year >= 2022
+    return False
 
 
 def main():
