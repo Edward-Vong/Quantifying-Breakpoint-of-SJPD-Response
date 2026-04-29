@@ -13,5 +13,5 @@ The data is sourced from the [San Jose Police Calls for Service](https://data.sa
 uv sync
 
 # Sync the datasets
-uv run 00_sync_data.py
+uv run 00_fetch_sjpd_calls.py
 ```
